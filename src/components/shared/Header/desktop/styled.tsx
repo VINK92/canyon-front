@@ -5,6 +5,4 @@ export const StyledContainer = styled(Box)({
   width: "100%",
   display: "flex",
   flexDirection: "row",
-  position: "sticky",
-  transition: "transform 0.5s ease",
 });

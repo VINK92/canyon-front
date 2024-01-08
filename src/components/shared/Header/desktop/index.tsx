@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { Typography } from "@mui/material";
-import { StyledContainer } from "@src/components/shared/Header/styled";
-import { Menu } from "@src/components/shared/Menu";
+import { Menu } from "@src/components/shared/Menu/desktop";
 import { Gap } from "@src/components/shared/Gap";
+import { StyledContainer } from "./styled";
 
 interface Props {
   alignLeft?: boolean;
