@@ -4,7 +4,7 @@ import { AboutContent } from "@src/components/AboutContent/desktop";
 
 export const AboutDesktop: React.FC = () => {
   return (
-    <BasicLayout>
+    <BasicLayout isShowMenu={true}>
       <AboutContent />
     </BasicLayout>
   );

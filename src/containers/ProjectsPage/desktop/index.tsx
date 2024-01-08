@@ -4,7 +4,7 @@ import { ProjectsContent } from "@src/components/ProjectsContent/desktop";
 
 export const ProjectsDesktop: React.FC = () => {
   return (
-    <BasicLayout>
+    <BasicLayout isShowMenu={false}>
       <ProjectsContent />
     </BasicLayout>
   );

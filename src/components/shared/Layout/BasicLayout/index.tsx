@@ -5,14 +5,14 @@ import { CommonLayoutContainer, HeaderContainer } from "./styled";
 
 interface Props {
   children: ReactNode;
+  isShowMenu?: boolean;
 }
 
-export const BasicLayout: React.FC<Props> = ({ children }) => {
+export const BasicLayout: React.FC<Props> = ({ children, isShowMenu }) => {
   return (
     <CommonLayoutContainer>
       <HeaderContainer>
-        <Header />
-        <Gap size="_40px" />
+        <Header isShowMenu={isShowMenu} />
       </HeaderContainer>
       {children}
     </CommonLayoutContainer>

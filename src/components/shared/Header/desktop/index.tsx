@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useTranslation } from "react-i18next";
 import { Typography } from "@mui/material";
 import { Menu } from "@src/components/shared/Menu/desktop";
@@ -7,9 +7,13 @@ import { StyledContainer } from "./styled";
 
 interface Props {
   alignLeft?: boolean;
+  isShowMenu?: boolean;
 }
 
-export const Header: React.FC<Props> = ({ alignLeft = false }) => {
+export const Header: React.FC<Props> = ({
+  alignLeft = false,
+  isShowMenu = false,
+}) => {
   const { t } = useTranslation();
 
   return (
@@ -19,8 +23,12 @@ export const Header: React.FC<Props> = ({ alignLeft = false }) => {
         <Gap isHorizontal size="_16px" />
         <Typography variant="h2">{t("header.rightPart")}</Typography>
       </StyledContainer>
-      <Gap size="_40px" />
-      <Menu />
+      {isShowMenu && (
+        <>
+          <Gap size="_24px" />
+          <Menu />
+        </>
+      )}
     </>
   );
 };

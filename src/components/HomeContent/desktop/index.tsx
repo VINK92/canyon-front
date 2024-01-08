@@ -1,17 +1,14 @@
 import React from "react";
-import { AnimatedLayout } from "@src/components/shared/Layout/AnimatedLayout";
-import { projects } from "@src/components/HomeContent/projects";
-import { HorizontalContainer } from "@src/components/shared/Layout/AnimatedLayout/styled";
+import { HorizontalContainer } from "@src/components/shared/Layout/BasicLayout/styled";
 import { ProjectItem } from "@src/components/HomeContent/desktop/ProjectItem";
+import { projects } from "@src/components/HomeContent/projects";
 
 export const HomeContent: React.FC = () => {
   return (
-    <AnimatedLayout>
-      <HorizontalContainer>
-        {projects.map((p) => (
-          <ProjectItem {...p} />
-        ))}
-      </HorizontalContainer>
-    </AnimatedLayout>
+    <HorizontalContainer>
+      {projects.map((p) => (
+        <ProjectItem {...p} />
+      ))}
+    </HorizontalContainer>
   );
 };
