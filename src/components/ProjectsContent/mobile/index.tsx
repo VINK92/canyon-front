@@ -23,7 +23,7 @@ export const ProjectsContent: React.FC = () => {
       <Gap size="_8px" />
       {project?.portfolio.images.map((image) => (
         <>
-          <Image src={image} alt="project-image" width={370} />
+          <Image src={image} alt="project-image" layout="responsive" />
           <Gap size="_8px" />
         </>
       ))}

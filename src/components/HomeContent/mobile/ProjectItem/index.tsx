@@ -18,7 +18,7 @@ export const ProjectItem: React.FC<Props> = ({
   return (
     <StyledLink href={to}>
       <Column>
-        <Image src={imageInactive} alt={alt} width={370} />
+        <Image src={imageInactive} alt={alt} layout="responsive" />
         <Typography variant="bodyDefault">{projectTitle}</Typography>
         <Gap size="_16px" />
       </Column>

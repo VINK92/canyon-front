@@ -14,9 +14,9 @@ export const ProjectItem: React.FC<Props> = ({
   id,
 }) => {
   const [isHovered, setIsHovered] = useState(false);
-  const to = `/projects?id=${id}`;
+  const option = { pathname: "/projects", query: { id }, property: { alt } };
   return (
-    <StyledLink href={to}>
+    <StyledLink href={option}>
       <Column>
         <StyledTypography variant="bodyDefault">
           {projectTitle}

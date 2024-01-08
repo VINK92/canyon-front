@@ -19,10 +19,8 @@ export const MobileHeader: React.FC<Props> = () => {
       <StyledContainer>
         <>
           <Typography variant="h3">{t("header.leftPart")}</Typography>
-          {/* <Gap isHorizontal size="_16px" /> */}
           <Typography variant="h3">{t("header.rightPart")}</Typography>
         </>
-        {/* <Gap isHorizontal size="_8px" /> */}
         <Image
           src={isOpenMenu ? closeButton : openButton}
           alt="menu"
