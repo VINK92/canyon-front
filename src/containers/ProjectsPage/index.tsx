@@ -7,7 +7,7 @@ import { ProjectsMobile } from "@src/containers/ProjectsPage/mobile";
  * f.e.
  */
 
-const isMobileDevice = () => true;
+const isMobileDevice = () => false;
 
 export const ProjectsPage: React.FC = () =>
   isMobileDevice() ? <ProjectsMobile /> : <ProjectsDesktop />;
