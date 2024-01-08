@@ -6,7 +6,7 @@ export const menuItems = [
     title: i18n.t("menu.titles.home"),
   },
   {
-    path: "/projects",
+    path: "",
     title: i18n.t("menu.titles.projects"),
   },
   {

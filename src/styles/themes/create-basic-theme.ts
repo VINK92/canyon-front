@@ -46,6 +46,7 @@ declare module "@mui/material/styles" {
   }
   interface TypographyVariants {
     h2Inactive: React.CSSProperties;
+    h1Inactive: React.CSSProperties;
     bodyDefault: React.CSSProperties;
     bodyDefaultInactive: React.CSSProperties;
   }
@@ -53,6 +54,7 @@ declare module "@mui/material/styles" {
   // allow configuration using `createTheme`
   interface TypographyVariantsOptions {
     h2Inactive?: React.CSSProperties;
+    h1Inactive?: React.CSSProperties;
     bodyDefault?: React.CSSProperties;
     bodyDefaultInactive?: React.CSSProperties;
   }
@@ -61,10 +63,11 @@ declare module "@mui/material/styles" {
 declare module "@mui/material/Typography" {
   interface TypographyPropsVariantOverrides {
     h2Inactive: true;
+    h1Inactive: true;
     bodyDefault: true;
     bodyDefaultInactive: true;
-    h1: false;
-    h3: false;
+    h1: true;
+    h3: true;
     h4: false;
     h5: false;
     h6: false;

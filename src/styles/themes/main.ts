@@ -20,6 +20,27 @@ const mainTheme = createBasicTheme({
     transparent: "transparent",
   },
   typography: {
+    h1: {
+      fontFamily: "Lato, sans-serif",
+      fontStyle: "normal",
+      fontWeight: 400,
+      fontSize: pxToRem(69),
+      color: "#000000",
+    },
+    h1Inactive: {
+      fontFamily: "Lato, sans-serif",
+      fontStyle: "normal",
+      fontWeight: 400,
+      fontSize: pxToRem(69),
+      color: "#00000025",
+    },
+    h3: {
+      fontFamily: "Lato, sans-serif",
+      fontStyle: "normal",
+      fontWeight: 400,
+      fontSize: pxToRem(30),
+      color: "#000000",
+    },
     h2: {
       fontFamily: "Lato, sans-serif",
       fontStyle: "normal",

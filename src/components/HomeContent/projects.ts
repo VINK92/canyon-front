@@ -19,12 +19,18 @@ import inactive8 from "@src/assets/images/projects/desktop/shadowed/image-8.png"
 import active9 from "@src/assets/images/projects/desktop/color/image-9.png";
 import inactive9 from "@src/assets/images/projects/desktop/shadowed/image-9.png";
 
+export interface IProjectDetails {
+  caption: string;
+  images: StaticImageData[];
+}
+
 export interface IProject {
   id: number;
   projectTitle: string;
   imageActive: StaticImageData;
   imageInactive: StaticImageData;
   alt: string;
+  portfolio: IProjectDetails;
 }
 
 export const projects: IProject[] = [
@@ -34,6 +40,10 @@ export const projects: IProject[] = [
     imageActive: active1,
     imageInactive: inactive1,
     alt: i18n.t("homePage.projectsTitles.project1"),
+    portfolio: {
+      caption: "Project 006 City and ​​Country Year",
+      images: [active1, active2, active3, active4, active5],
+    },
   },
   {
     id: 2,
@@ -41,6 +51,10 @@ export const projects: IProject[] = [
     imageActive: active2,
     imageInactive: inactive2,
     alt: i18n.t("homePage.projectsTitles.project2"),
+    portfolio: {
+      caption: "Project 006 City and ​​Country Year",
+      images: [active1, active2, active3, active4, active5],
+    },
   },
   {
     id: 3,
@@ -48,6 +62,10 @@ export const projects: IProject[] = [
     imageActive: active3,
     imageInactive: inactive3,
     alt: i18n.t("homePage.projectsTitles.project3"),
+    portfolio: {
+      caption: "Project 006 City and ​​Country Year",
+      images: [active1, active2, active3, active4, active5],
+    },
   },
   {
     id: 4,
@@ -55,6 +73,10 @@ export const projects: IProject[] = [
     imageActive: active4,
     imageInactive: inactive4,
     alt: i18n.t("homePage.projectsTitles.project4"),
+    portfolio: {
+      caption: "Project 006 City and ​​Country Year",
+      images: [active1, active2, active3, active4, active5],
+    },
   },
   {
     id: 5,
@@ -62,6 +84,10 @@ export const projects: IProject[] = [
     imageActive: active5,
     imageInactive: inactive5,
     alt: i18n.t("homePage.projectsTitles.project5"),
+    portfolio: {
+      caption: "Project 006 City and ​​Country Year",
+      images: [active1, active2, active3, active4, active5],
+    },
   },
   {
     id: 6,
@@ -69,6 +95,10 @@ export const projects: IProject[] = [
     imageActive: active6,
     imageInactive: inactive6,
     alt: i18n.t("homePage.projectsTitles.project6"),
+    portfolio: {
+      caption: "Project 006 City and ​​Country Year",
+      images: [active1, active2, active3, active4, active5],
+    },
   },
   {
     id: 7,
@@ -76,6 +106,10 @@ export const projects: IProject[] = [
     imageActive: active7,
     imageInactive: inactive7,
     alt: i18n.t("homePage.projectsTitles.project7"),
+    portfolio: {
+      caption: "Project 006 City and ​​Country Year",
+      images: [active1, active2, active3, active4, active5],
+    },
   },
   {
     id: 8,
@@ -83,6 +117,10 @@ export const projects: IProject[] = [
     imageActive: active8,
     imageInactive: inactive8,
     alt: i18n.t("homePage.projectsTitles.project8"),
+    portfolio: {
+      caption: "Project 006 City and ​​Country Year",
+      images: [active1, active2, active3, active4, active5],
+    },
   },
   {
     id: 9,
@@ -90,5 +128,9 @@ export const projects: IProject[] = [
     imageActive: active9,
     imageInactive: inactive9,
     alt: i18n.t("homePage.projectsTitles.project9"),
+    portfolio: {
+      caption: "Project 006 City and ​​Country Year",
+      images: [active1, active2, active3, active4, active5],
+    },
   },
 ];

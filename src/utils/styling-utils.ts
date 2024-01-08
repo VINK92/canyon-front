@@ -3,7 +3,7 @@
  */
 export const ROOT_FONT_SIZE = 16;
 
-export const ROOT_CONTAINER_MARGIN = 16;
+export const ROOT_CONTAINER_MARGIN = 10;
 
 /**
  * Design screen dimensions
