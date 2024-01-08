@@ -15,5 +15,3 @@ export const StyledRowContainer = styled(Row)(
     align-items: end;
   `
 );
-
-export const StyledFooter = styled(Column)(() => css``);

@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
-import firstImage from "@src/assets/images/about/desktop/contact-first.png";
-import secondImage from "@src/assets/images/about/desktop/contact-second.png";
+import firstImage from "@src/assets/images/about/desktop/about-first.png";
+import secondImage from "@src/assets/images/about/desktop/about-second.png";
 import {
   StyledDescriptionContainer,
   StyledRowContainer,

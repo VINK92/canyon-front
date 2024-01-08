@@ -4,11 +4,8 @@ import Image from "next/image";
 import { useTranslation } from "react-i18next";
 import { Gap } from "@src/components/shared/Gap";
 import image from "@src/assets/images/contact/desktop/contact-hero.png";
-import {
-  StyledRowContainer,
-  StyledDescriptionContainer,
-  StyledFooter,
-} from "./styled";
+import { StyledRowContainer, StyledDescriptionContainer } from "./styled";
+import { Column } from "@src/components/shared/Flex/Column";
 
 export const ContactContent: React.FC = () => {
   const { t } = useTranslation();
@@ -19,7 +16,7 @@ export const ContactContent: React.FC = () => {
         <Typography variant="bodyDefault">
           {t("contactPage.caption")}
         </Typography>
-        <StyledFooter>
+        <Column>
           <Typography variant="bodyDefault">
             {t("contactPage.addressStreet")}
           </Typography>
@@ -34,7 +31,7 @@ export const ContactContent: React.FC = () => {
             {t("contactPage.instagram")}
           </Typography>
           <Typography variant="bodyDefault">{t("contactPage.mail")}</Typography>
-        </StyledFooter>
+        </Column>
       </StyledDescriptionContainer>
     </StyledRowContainer>
   );
