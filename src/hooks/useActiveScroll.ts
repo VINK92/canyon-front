@@ -1,3 +1,4 @@
+"use client";
 import { useState, useEffect } from "react";
 
 export const useActiveScroll = (): boolean => {
@@ -5,18 +6,21 @@ export const useActiveScroll = (): boolean => {
 
   useEffect(() => {
     let timeout: string | number | NodeJS.Timeout | undefined;
-    const handleScroll = () => {
+
+    const handleWheel = (event: WheelEvent) => {
+      if (event.deltaX > 0 || event.deltaX < 0) {
+        return;
+      }
+
       clearTimeout(timeout);
       timeout = setTimeout(() => {
         setIsactivescroll((prev) => !prev);
       }, 100);
     };
 
-    window.addEventListener("scroll", handleScroll);
-    window.addEventListener("wheel", handleScroll);
+    window.addEventListener("wheel", handleWheel);
     return () => {
-      window.removeEventListener("scroll", handleScroll);
-      window.removeEventListener("wheel", handleScroll);
+      window.removeEventListener("wheel", handleWheel);
       clearTimeout(timeout);
     };
   }, []);

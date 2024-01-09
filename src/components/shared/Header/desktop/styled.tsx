@@ -10,11 +10,12 @@ export const StyledContainer = styled(Box)({
 
 interface CustomTypographyProps extends TypographyProps {
   isactivescroll: boolean | undefined;
+  widthToScroll: number | undefined;
 }
 
 export const StyledTypography = styled<React.FC<CustomTypographyProps>>(
   Typography
-)(({ isactivescroll }) => ({
+)(({ isactivescroll, widthToScroll }) => ({
   transition: "transform 3s ease",
-  transform: isactivescroll ? "translateX(620px)" : "none",
+  transform: isactivescroll ? `translateX(${widthToScroll}px)` : "none",
 }));
