@@ -42,7 +42,17 @@ export const projects: IProject[] = [
     alt: i18n.t("homePage.projectsTitles.project1"),
     portfolio: {
       caption: "Project 006 City and ​​Country Year",
-      images: [active1, active2, active3, active4, active5],
+      images: [
+        active9,
+        active8,
+        active3,
+        active4,
+        active5,
+        active6,
+        active7,
+        active8,
+        active9,
+      ],
     },
   },
   {
@@ -53,7 +63,17 @@ export const projects: IProject[] = [
     alt: i18n.t("homePage.projectsTitles.project2"),
     portfolio: {
       caption: "Project 006 City and ​​Country Year",
-      images: [active1, active2, active3, active4, active5],
+      images: [
+        active1,
+        active2,
+        active3,
+        active4,
+        active5,
+        active6,
+        active7,
+        active8,
+        active9,
+      ],
     },
   },
   {
@@ -64,7 +84,17 @@ export const projects: IProject[] = [
     alt: i18n.t("homePage.projectsTitles.project3"),
     portfolio: {
       caption: "Project 006 City and ​​Country Year",
-      images: [active1, active2, active3, active4, active5],
+      images: [
+        active1,
+        active2,
+        active3,
+        active4,
+        active5,
+        active6,
+        active7,
+        active8,
+        active9,
+      ],
     },
   },
   {
@@ -75,7 +105,17 @@ export const projects: IProject[] = [
     alt: i18n.t("homePage.projectsTitles.project4"),
     portfolio: {
       caption: "Project 006 City and ​​Country Year",
-      images: [active1, active2, active3, active4, active5],
+      images: [
+        active1,
+        active2,
+        active3,
+        active4,
+        active5,
+        active6,
+        active7,
+        active8,
+        active9,
+      ],
     },
   },
   {
