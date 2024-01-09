@@ -4,7 +4,7 @@ import { HomeMobile } from "@src/containers/HomePage/mobile";
 import { useBreakpointCheck, Breakpoint } from "@src/hooks/useBreakpointCheck";
 
 export const HomePage: React.FC = () => {
-  const isMobileDevice = useBreakpointCheck(Breakpoint.Mobile);
+  const { isMobileDevice } = useBreakpointCheck(Breakpoint.Mobile);
   if (isMobileDevice) {
     return <HomeMobile />;
   } else {
