@@ -28,7 +28,7 @@ export const ContactContent: React.FC = () => {
       </Typography>
       <Typography variant="bodyDefault">{t("contactPage.mail")}</Typography>
       <Gap size="_12px" />
-      <Image src={image} alt="contact-hero" />
+      <Image src={image} alt="contact-hero" layout="responsive" />
     </Column>
   );
 };

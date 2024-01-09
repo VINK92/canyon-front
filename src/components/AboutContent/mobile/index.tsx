@@ -3,15 +3,15 @@ import Image from "next/image";
 import { useTranslation } from "react-i18next";
 import { Typography } from "@mui/material";
 import { Gap } from "@src/components/shared/Gap";
+import { Column } from "@src/components/shared/Flex/Column";
 import firstImage from "@src/assets/images/about/mobile/about-first.png";
 import secondImage from "@src/assets/images/about/mobile/about-second.png";
-import { StyledContainer } from "./styled";
 
 export const AboutContent = () => {
   const { t } = useTranslation();
   return (
-    <StyledContainer>
-      <Image src={firstImage} alt="first-image" />
+    <Column>
+      <Image src={firstImage} alt="first-image" layout="responsive" />
       <Gap size="_16px" />
       <Typography variant="bodyDefault">{t("aboutPage.titlePrat1")}</Typography>
       <Typography variant="bodyDefault">{t("aboutPage.titlePrat2")}</Typography>
@@ -25,7 +25,7 @@ export const AboutContent = () => {
         {t("aboutPage.descriptionSecondPart")}
       </Typography>
       <Gap size="_16px" />
-      <Image src={secondImage} alt="first-image" width={370} />
+      <Image src={secondImage} alt="first-image" layout="responsive" />
       <Gap size="_16px" />
       <Typography variant="bodyDefault">{t("aboutPage.titlePrat1")}</Typography>
       <Typography variant="bodyDefault">{t("aboutPage.titlePrat2")}</Typography>
@@ -34,6 +34,6 @@ export const AboutContent = () => {
       <Typography variant="bodyDefault">
         {t("aboutPage.descriptionFirstPart")}
       </Typography>
-    </StyledContainer>
+    </Column>
   );
 };

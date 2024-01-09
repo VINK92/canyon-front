@@ -14,8 +14,8 @@ export const useBreakpointCheck: IUseBreakpointCheck = (breakpoint) => {
   const [isBreakpoint, setIsBreakpoint] = useState(false);
 
   const handleBreakpointChange = useCallback(() => {
-    const { innerWidth } = window;
-    setIsBreakpoint(innerWidth < breakpoint);
+    const { outerWidth } = window;
+    setIsBreakpoint(outerWidth < breakpoint);
   }, [breakpoint]);
   useWindowListener("resize", handleBreakpointChange);
 
