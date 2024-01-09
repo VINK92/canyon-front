@@ -3,19 +3,24 @@ import { useState, useEffect } from "react";
 
 export const useActiveScroll = (): boolean => {
   const [isactivescroll, setIsactivescroll] = useState(false);
+  const [scrollStack, setScrollStack] = useState(0);
 
   useEffect(() => {
     let timeout: string | number | NodeJS.Timeout | undefined;
-
     const handleWheel = (event: WheelEvent) => {
       if (event.deltaX > 0 || event.deltaX < 0) {
         return;
       }
-
       clearTimeout(timeout);
       timeout = setTimeout(() => {
-        setIsactivescroll((prev) => !prev);
-      }, 100);
+        if (scrollStack === 0) {
+          setIsactivescroll((prev) => !prev);
+          setScrollStack(1);
+        } else if (scrollStack === 1) {
+          setIsactivescroll((prev) => !prev);
+          setScrollStack(2);
+        }
+      }, 115);
     };
 
     window.addEventListener("wheel", handleWheel);
