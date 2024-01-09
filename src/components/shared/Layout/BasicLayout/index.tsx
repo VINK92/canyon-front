@@ -1,6 +1,5 @@
 import React, { ReactNode } from "react";
 import { Header } from "@src/components/shared/Header/desktop";
-import { Gap } from "@src/components/shared/Gap";
 import { CommonLayoutContainer, HeaderContainer } from "./styled";
 
 interface Props {

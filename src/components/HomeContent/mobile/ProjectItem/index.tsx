@@ -14,9 +14,9 @@ export const ProjectItem: React.FC<Props> = ({
   alt,
   id,
 }) => {
-  const to = `/projects?id=${id}`;
+  const option = { pathname: "/projects", query: { id } };
   return (
-    <StyledLink href={to}>
+    <StyledLink href={option}>
       <Column>
         <Image src={imageInactive} alt={alt} layout="responsive" />
         <Typography variant="bodyDefault">{projectTitle}</Typography>
