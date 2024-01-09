@@ -1,11 +1,7 @@
-import Link, { LinkProps } from "next/link";
+import Link from "next/link";
 import { css, styled } from "@mui/material";
 import { Typography, TypographyProps } from "@mui/material";
 import Image from "next/image";
-
-// type CustomLinkProps = LinkProps & {
-//   isactivescroll: boolean | undefined;
-// };
 
 export const StyledImage = styled(Image)(() => ({}));
 
@@ -23,17 +19,20 @@ export const StyledLink = styled(Link)(() => ({
 interface CustomTypographyProps extends TypographyProps {
   isactivescroll: boolean | undefined;
   index: number;
-  imageWidth: any;
+  // imageWidth: number;
+  // widthToScroll: number;
 }
 
 export const StyledColumn = styled<React.FC<CustomTypographyProps>>(Typography)(
-  ({ isactivescroll, index, imageWidth }) => ({
+  ({
+    isactivescroll,
+    index,
+    //  imageWidth, widthToScroll
+  }) => ({
     display: "flex",
     flexDirection: "column",
     transition: "transform 3s ease",
-    // transform: isactivescroll ? "translateX(620px)" : "none",
-    transform: isactivescroll
-      ? `translateX(calc((100% + 20px) * ${index}))`
-      : "none",
+    width: "100%",
+    transform: isactivescroll ? `translateX(${630 * index}px)` : "none",
   })
 );
