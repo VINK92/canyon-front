@@ -7,7 +7,7 @@ export const HomeContent: React.FC = () => {
   return (
     <Column>
       {projects.map((p) => (
-        <ProjectItem {...p} />
+        <ProjectItem key={p.projectTitle} {...p} />
       ))}
     </Column>
   );
