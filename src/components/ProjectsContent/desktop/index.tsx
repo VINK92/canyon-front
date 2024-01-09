@@ -35,6 +35,7 @@ export const ProjectsContent = () => {
           const isFirstItem = index === 0;
           return (
             <StyledColumn
+              key={image.src + index}
               isactivescroll={isFirstItem ? false : isactivescroll}
               index={index}
             >
