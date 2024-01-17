@@ -1,5 +1,10 @@
 import { pxToRem } from "@src/utils/styling-utils";
 import { createBasicTheme } from "./create-basic-theme";
+import localFont from "next/font/local";
+
+const Lausanne300 = localFont({
+  src: "../../assets/fonts/Lausanne/Lausanne-300.otf",
+});
 
 const mainTheme = createBasicTheme({
   palette: {
@@ -21,35 +26,35 @@ const mainTheme = createBasicTheme({
   },
   typography: {
     h1: {
-      fontFamily: "Lato, sans-serif",
+      fontFamily: Lausanne300.style.fontFamily,
       fontStyle: "normal",
       fontWeight: 400,
       fontSize: pxToRem(69),
       color: "#000000",
     },
     h1Inactive: {
-      fontFamily: "Lato, sans-serif",
+      fontFamily: Lausanne300.style.fontFamily,
       fontStyle: "normal",
       fontWeight: 400,
       fontSize: pxToRem(69),
       color: "#00000025",
     },
     h3: {
-      fontFamily: "Lato, sans-serif",
+      fontFamily: Lausanne300.style.fontFamily,
       fontStyle: "normal",
       fontWeight: 400,
       fontSize: pxToRem(30),
       color: "#000000",
     },
     h2: {
-      fontFamily: "Lato, sans-serif",
+      fontFamily: Lausanne300.style.fontFamily,
       fontStyle: "normal",
       fontWeight: 400,
       fontSize: pxToRem(35),
       color: "#000000",
     },
     h2Inactive: {
-      fontFamily: "Lato, sans-serif",
+      fontFamily: Lausanne300.style.fontFamily,
       fontStyle: "normal",
       fontWeight: 400,
       fontSize: pxToRem(35),
@@ -59,14 +64,14 @@ const mainTheme = createBasicTheme({
     },
 
     bodyDefault: {
-      fontFamily: "Lato, sans-serif",
+      fontFamily: Lausanne300.style.fontFamily,
       fontStyle: "normal",
       fontWeight: 400,
       fontSize: pxToRem(15),
       color: "#000000",
     },
     bodyDefaultInactive: {
-      fontFamily: "Lato, sans-serif",
+      fontFamily: Lausanne300.style.fontFamily,
       fontStyle: "normal",
       fontWeight: 400,
       fontSize: pxToRem(15),
