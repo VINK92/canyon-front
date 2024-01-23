@@ -6,7 +6,7 @@ export const useActiveScroll = (): boolean => {
   // const [scrollStack, setScrollStack] = useState(0);
 
   useEffect(() => {
-    let timeout: string | number | NodeJS.Timeout | undefined;
+    // let timeout: string | number | NodeJS.Timeout | undefined;
     const handleWheel = (event: WheelEvent) => {
       if (event.deltaX > 0 || event.deltaX < 0) {
         return;
@@ -34,7 +34,7 @@ export const useActiveScroll = (): boolean => {
     window.addEventListener("wheel", handleWheel);
     return () => {
       window.removeEventListener("wheel", handleWheel);
-      clearTimeout(timeout);
+      // clearTimeout(timeout);
     };
   }, []);
 
