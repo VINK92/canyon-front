@@ -11,11 +11,11 @@ export const useActiveScroll = (): boolean => {
       if (event.deltaX > 0 || event.deltaX < 0) {
         return;
       }
-      if (event.deltaY > 100) {
+      if (event.deltaY > 0) {
         setIsactivescroll(false);
         // console.log(event.deltaY, event.deltaY > 50);
       }
-      if (event.deltaY < -30) {
+      if (event.deltaY < -50) {
         setIsactivescroll(true);
         // console.log(event.deltaY);
       }
