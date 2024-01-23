@@ -15,7 +15,7 @@ export const useActiveScroll = (): boolean => {
         setIsactivescroll(false);
         // console.log(event.deltaY, event.deltaY > 50);
       }
-      if (event.deltaY < -50) {
+      if (event.deltaY < -35) {
         setIsactivescroll(true);
         // console.log(event.deltaY);
       }
