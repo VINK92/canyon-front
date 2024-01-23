@@ -5,10 +5,10 @@ export const menuItems = [
     path: "/",
     title: i18n.t("menu.titles.home"),
   },
-  {
-    path: "/projects",
-    title: i18n.t("menu.titles.projects"),
-  },
+  // {
+  //   path: "/projects",
+  //   title: i18n.t("menu.titles.projects"),
+  // },
   {
     path: "/about",
     title: i18n.t("menu.titles.about"),

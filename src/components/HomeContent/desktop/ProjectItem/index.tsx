@@ -25,7 +25,7 @@ export const ProjectItem: React.FC<Props> = ({
   // const { outerWidth } = useBreakpointCheck();
 
   const [isHovered, setIsHovered] = useState(false);
-  const option = { pathname: "/projects", query: { id } };
+  const option = `/${id}`;
   const isFirstItem = index === 0;
 
   // useEffect(() => {

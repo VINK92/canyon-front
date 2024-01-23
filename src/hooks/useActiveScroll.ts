@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 export const useActiveScroll = (): boolean => {
   const [isactivescroll, setIsactivescroll] = useState(false);
-  const [scrollStack, setScrollStack] = useState(0);
+  // const [scrollStack, setScrollStack] = useState(0);
 
   useEffect(() => {
     let timeout: string | number | NodeJS.Timeout | undefined;
@@ -11,16 +11,24 @@ export const useActiveScroll = (): boolean => {
       if (event.deltaX > 0 || event.deltaX < 0) {
         return;
       }
-      clearTimeout(timeout);
-      timeout = setTimeout(() => {
-        if (scrollStack === 0) {
-          setIsactivescroll((prev) => !prev);
-          setScrollStack(1);
-        } else if (scrollStack === 1) {
-          setIsactivescroll((prev) => !prev);
-          setScrollStack(2);
-        }
-      }, 115);
+      if (event.deltaY > 100) {
+        setIsactivescroll(false);
+        console.log(event.deltaY, event.deltaY > 50);
+      }
+      if (event.deltaY < -30) {
+        setIsactivescroll(true);
+        console.log(event.deltaY);
+      }
+      // clearTimeout(timeout);
+      // timeout = setTimeout(() => {
+      //   if (scrollStack === 0) {
+      //     setIsactivescroll((prev) => !prev);
+      //     setScrollStack(1);
+      //   } else if (scrollStack === 1) {
+      //     setIsactivescroll((prev) => !prev);
+      //     setScrollStack(2);
+      //   }
+      // }, 150);
     };
 
     window.addEventListener("wheel", handleWheel);
