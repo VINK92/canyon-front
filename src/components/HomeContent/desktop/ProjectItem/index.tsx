@@ -11,6 +11,7 @@ import {
 
 interface Props extends IProject {
   index: number;
+  // style: React.CSSProperties;
 }
 
 export const ProjectItem: React.FC<Props> = ({
@@ -20,8 +21,9 @@ export const ProjectItem: React.FC<Props> = ({
   alt,
   id,
   index,
+  // style,
 }) => {
-  const isactivescroll = useActiveScroll();
+  // const isactivescroll = useActiveScroll();
   // const { outerWidth } = useBreakpointCheck();
 
   const [isHovered, setIsHovered] = useState(false);
@@ -35,9 +37,13 @@ export const ProjectItem: React.FC<Props> = ({
   // const widthToScroll = outerWidth! / 2 - Number(imageActive.width) * index;
 
   return (
-    <StyledLink href={option}>
+    <StyledLink
+      href={option}
+      // style={style}
+    >
       <StyledColumn
-        isactivescroll={isFirstItem ? false : isactivescroll}
+        isactivescroll={false}
+        // isactivescroll={isFirstItem ? false : isactivescroll}
         index={index}
         // imageWidth={imageActive.width}
         // widthToScroll={widthToScroll}

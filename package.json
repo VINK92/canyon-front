@@ -16,7 +16,10 @@
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
-    "react-i18next": "^14.0.0"
+    "react-i18next": "^14.0.0",
+    "react-responsive-carousel": "^3.2.23",
+    "sass": "^1.70.0",
+    "swiper": "^11.0.5"
   },
   "devDependencies": {
     "@types/node": "^20",

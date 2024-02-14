@@ -17,22 +17,24 @@ export const StyledLink = styled(Link)(() => ({
 }));
 
 interface CustomTypographyProps extends TypographyProps {
-  isactivescroll: boolean | undefined;
-  index: number;
+  // isactivescroll: boolean | undefined;
+  // index: number;
   // imageWidth: number;
   // widthToScroll: number;
 }
 
 export const StyledColumn = styled<React.FC<CustomTypographyProps>>(Typography)(
-  ({
-    isactivescroll,
-    index,
-    //  imageWidth, widthToScroll
-  }) => ({
+  (
+    {
+      // isactivescroll,
+      // index,
+      //  imageWidth, widthToScroll
+    }
+  ) => ({
     display: "flex",
     flexDirection: "column",
-    transition: "transform 3s ease",
+    // transition: "transform 3s ease",
     width: "100%",
-    transform: isactivescroll ? `translateX(${630 * index}px)` : "none",
+    // transform: isactivescroll ? `translateX(${630 * index}px)` : "none",
   })
 );
