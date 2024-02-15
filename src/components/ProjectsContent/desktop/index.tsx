@@ -21,11 +21,13 @@ export const ProjectsContent = () => {
   return (
     <>
       <StyledMenuContainer>
-        <Menu />
         <StyledDescriptionContainer>
           <Typography variant="bodyDefault">{project?.projectTitle}</Typography>
           <Typography variant="bodyDefault">
             {project?.portfolio.caption}
+          </Typography>
+          <Typography variant="bodyDefault">
+            {project?.portfolio.year}
           </Typography>
         </StyledDescriptionContainer>
       </StyledMenuContainer>
@@ -39,7 +41,11 @@ export const ProjectsContent = () => {
               isactivescroll={isFirstItem ? false : isactivescroll}
               index={index}
             >
-              <Image src={image} alt="project-image" />
+              <Image
+                width={image.width / 4.5}
+                src={image}
+                alt="project-image"
+              />
               <Gap size="_8px" />
             </StyledColumn>
           );

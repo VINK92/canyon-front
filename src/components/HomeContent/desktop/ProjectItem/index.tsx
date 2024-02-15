@@ -46,6 +46,7 @@ export const ProjectItem: React.FC<Props> = ({
           {projectTitle}
         </StyledTypography>
         <StyledImage
+          width={imageActive.width / 4.5}
           src={isHovered ? imageActive : imageInactive}
           alt={alt}
           onMouseEnter={() => setIsHovered(true)}
