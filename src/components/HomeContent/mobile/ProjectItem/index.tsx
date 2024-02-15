@@ -14,7 +14,7 @@ export const ProjectItem: React.FC<Props> = ({
   alt,
   id,
 }) => {
-  const option = { pathname: "/projects", query: { id } };
+  const option = `/${id}`;
   return (
     <StyledLink href={option}>
       <Column>

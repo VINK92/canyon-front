@@ -4,7 +4,7 @@ import { ContactContent } from "@src/components/ContactContent/desktop";
 
 export const ContactsDesktop: React.FC = () => {
   return (
-    <BasicLayout isShowMenu={true}>
+    <BasicLayout isStaticHeader>
       <ContactContent />
     </BasicLayout>
   );

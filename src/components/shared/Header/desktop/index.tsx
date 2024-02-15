@@ -7,15 +7,9 @@ import { StyledContainer, StyledTypography } from "./styled";
 import { useActiveScroll } from "@src/hooks/useActiveScroll";
 import { useBreakpointCheck } from "@src/hooks/useBreakpointCheck";
 
-interface Props {
-  alignLeft?: boolean;
-  isShowMenu?: boolean;
-}
+interface Props {}
 
-export const Header: React.FC<Props> = ({
-  alignLeft = false,
-  isShowMenu = false,
-}) => {
+export const Header: React.FC<Props> = () => {
   const { t } = useTranslation();
   const isactivescroll = useActiveScroll();
   const { outerWidth } = useBreakpointCheck();
@@ -23,7 +17,7 @@ export const Header: React.FC<Props> = ({
 
   return (
     <>
-      <StyledContainer justifyContent={alignLeft ? "start" : "space-between"}>
+      <StyledContainer justifyContent="start">
         <Typography variant="h2">{t("header.leftPart")}</Typography>
         <Gap isHorizontal size="_16px" />
         <StyledTypography
@@ -34,12 +28,11 @@ export const Header: React.FC<Props> = ({
           {t("header.rightPart")}
         </StyledTypography>
       </StyledContainer>
-      {isShowMenu && (
-        <>
-          <Gap size="_24px" />
-          <Menu />
-        </>
-      )}
+
+      <>
+        <Gap size="_24px" />
+        <Menu />
+      </>
     </>
   );
 };

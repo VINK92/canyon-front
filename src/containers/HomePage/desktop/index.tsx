@@ -4,7 +4,7 @@ import { HomeContent } from "@src/components/HomeContent/desktop";
 
 export const HomeDesktop: React.FC = () => {
   return (
-    <BasicLayout isShowMenu={true} alignLeft>
+    <BasicLayout>
       <HomeContent />
     </BasicLayout>
   );

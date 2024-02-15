@@ -8,7 +8,10 @@ export const StyledDescriptionContainer = styled(Column)(() => ({
 }));
 
 export const StyledMenuContainer = styled(Row)(() => ({
-  justifyContent: "space-between",
+  position: "absolute",
+  justifyContent: "end",
+  right: pxToRem(ROOT_CONTAINER_MARGIN),
+  top: pxToRem(76),
   paddingInline: pxToRem(ROOT_CONTAINER_MARGIN),
 }));
 

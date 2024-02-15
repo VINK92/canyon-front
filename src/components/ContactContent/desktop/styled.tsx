@@ -7,6 +7,7 @@ export const StyledDescriptionContainer = styled(Column)(
     justify-content: space-between;
     padding: 16px;
     height: 100%;
+    padding-top: 0;
   `
 );
 
