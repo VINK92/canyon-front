@@ -43,7 +43,7 @@ export const ProjectItem: React.FC<Props> = ({
         // widthToScroll={widthToScroll}
       >
         <StyledTypography variant="bodyDefault">
-          {projectTitle}
+          {projectTitle.toLocaleUpperCase()}
         </StyledTypography>
         <StyledImage
           width={imageActive.width / 4.5}

@@ -22,7 +22,9 @@ export const ProjectsContent = () => {
     <>
       <StyledMenuContainer>
         <StyledDescriptionContainer>
-          <Typography variant="bodyDefault">{project?.projectTitle}</Typography>
+          <Typography variant="bodyDefault">
+            {project?.projectTitle.toLocaleUpperCase()}
+          </Typography>
           <Typography variant="bodyDefault">
             {project?.portfolio.caption}
           </Typography>

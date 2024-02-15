@@ -19,7 +19,10 @@ export const ProjectItem: React.FC<Props> = ({
     <StyledLink href={option}>
       <Column>
         <Image src={imageInactive} alt={alt} layout="responsive" />
-        <Typography variant="bodyDefault">{projectTitle}</Typography>
+        <Gap size="_2px" />
+        <Typography variant="bodyDefault">
+          {projectTitle.toLocaleUpperCase()}
+        </Typography>
         <Gap size="_16px" />
       </Column>
     </StyledLink>
