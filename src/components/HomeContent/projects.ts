@@ -140,6 +140,7 @@ export const projects: IProject[] = [
       caption: i18n.t("homePage.projectsCaptions.project1"),
       year: i18n.t("homePage.projectsYears.project1"),
       images: [
+        ArtistRetreatActive,
         ArtistRetreat1,
         ArtistRetreat2,
         ArtistRetreat3,
@@ -201,6 +202,7 @@ export const projects: IProject[] = [
       caption: i18n.t("homePage.projectsCaptions.project4"),
       year: i18n.t("homePage.projectsYears.project4"),
       images: [
+        MalibuRetreatActive,
         MalibuRetreat1,
         MalibuRetreat2,
         MalibuRetreat3,
@@ -226,6 +228,7 @@ export const projects: IProject[] = [
       caption: i18n.t("homePage.projectsCaptions.project5"),
       year: i18n.t("homePage.projectsYears.project5"),
       images: [
+        CrystalCoveActive,
         CrystalCove1,
         CrystalCove2,
         CrystalCove3,
@@ -245,6 +248,7 @@ export const projects: IProject[] = [
       caption: i18n.t("homePage.projectsCaptions.project6"),
       year: i18n.t("homePage.projectsYears.project6"),
       images: [
+        NewportBeachActive,
         NewportBeach1,
         NewportBeach2,
         NewportBeach3,
@@ -265,6 +269,7 @@ export const projects: IProject[] = [
       caption: i18n.t("homePage.projectsCaptions.project7"),
       year: i18n.t("homePage.projectsYears.project7"),
       images: [
+        SouthBeachActive,
         SouthBeach1,
         SouthBeach2,
         SouthBeach3,
@@ -289,6 +294,7 @@ export const projects: IProject[] = [
       caption: i18n.t("homePage.projectsCaptions.project8"),
       year: i18n.t("homePage.projectsYears.project8"),
       images: [
+        HollywoodHillsActive,
         HollywoodHills1,
         HollywoodHills2,
         HollywoodHills3,
@@ -310,6 +316,7 @@ export const projects: IProject[] = [
       caption: i18n.t("homePage.projectsCaptions.project9"),
       year: i18n.t("homePage.projectsYears.project9"),
       images: [
+        CentralCoastActive,
         CentralCoast1,
         CentralCoast2,
         CentralCoast3,
