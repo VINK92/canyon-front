@@ -11,6 +11,7 @@ import {
   StyledDescriptionContainer,
   StyledMenuContainer,
   StyledColumn,
+  StyledImage,
 } from "./styled";
 
 export const ProjectsContent = () => {
@@ -43,12 +44,13 @@ export const ProjectsContent = () => {
               isactivescroll={isFirstItem ? false : isactivescroll}
               index={index}
             >
-              <Image
-                width={image.width / 4.5}
+              <StyledImage
+                style={{
+                  maxHeight: "85vh",
+                }}
                 src={image}
                 alt="project-image"
               />
-              <Gap size="_8px" />
             </StyledColumn>
           );
         })}

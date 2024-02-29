@@ -2,6 +2,7 @@ import { Typography, TypographyProps, styled } from "@mui/material";
 import { Column } from "@src/components/shared/Flex/Column";
 import { Row } from "@src/components/shared/Flex/Row";
 import { ROOT_CONTAINER_MARGIN, pxToRem } from "@src/utils/styling-utils";
+import Image from "next/image";
 
 export const StyledDescriptionContainer = styled(Column)(() => ({
   alignItems: "end",
@@ -31,7 +32,16 @@ export const StyledColumn = styled<React.FC<CustomTypographyProps>>(Typography)(
     display: "flex",
     flexDirection: "column",
     transition: "transform 3s ease",
-    width: "100%",
+    // width: "100%",
     transform: isactivescroll ? `translateX(${630 * index}px)` : "none",
   })
+);
+
+export const StyledImage = styled(Image)(
+  () => `
+    @media (max-height: 800px) {
+      width: auto;
+      height: auto;
+    }
+  `
 );

@@ -7,7 +7,7 @@ export const StyledImage = styled(Image)(() => ({}));
 
 export const StyledTypography = styled(Typography)(
   () => css`
-    margin-bottom: -3px;
+    margin-bottom: -5px;
   `
 );
 
