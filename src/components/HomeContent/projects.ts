@@ -1,6 +1,41 @@
 import i18n from "@src/localizations";
 import { StaticImageData } from "next/image";
 
+// 1-LA ArtistRetreat
+import ArtistRetreatActive from "@src/assets/images/projects/1-LA-Artist-Retreat/active-HERO.jpg";
+import ArtistRetreatInactive from "@src/assets/images/projects/1-LA-Artist-Retreat/inactive-HERO.jpg";
+import ArtistRetreat1 from "@src/assets/images/projects/1-LA-Artist-Retreat/1.jpg";
+import ArtistRetreat2 from "@src/assets/images/projects/1-LA-Artist-Retreat/2.jpg";
+import ArtistRetreat3 from "@src/assets/images/projects/1-LA-Artist-Retreat/3.jpg";
+import ArtistRetreat4 from "@src/assets/images/projects/1-LA-Artist-Retreat/4.jpg";
+import ArtistRetreat5 from "@src/assets/images/projects/1-LA-Artist-Retreat/5.jpg";
+import ArtistRetreat6 from "@src/assets/images/projects/1-LA-Artist-Retreat/6.jpg";
+import ArtistRetreat7 from "@src/assets/images/projects/1-LA-Artist-Retreat/7.jpg";
+import ArtistRetreat8 from "@src/assets/images/projects/1-LA-Artist-Retreat/8.jpg";
+import ArtistRetreat9 from "@src/assets/images/projects/1-LA-Artist-Retreat/9.jpg";
+import ArtistRetreat10 from "@src/assets/images/projects/1-LA-Artist-Retreat/10.jpg";
+import ArtistRetreat11 from "@src/assets/images/projects/1-LA-Artist-Retreat/11.jpg";
+import ArtistRetreat12 from "@src/assets/images/projects/1-LA-Artist-Retreat/12.jpg";
+import ArtistRetreat13 from "@src/assets/images/projects/1-LA-Artist-Retreat/13.jpg";
+
+// 2-Topanga-Canyon
+import TopangaCanyonActive from "@src/assets/images/projects/2-Topanga-Canyon/active-HERO.jpg";
+import TopangaCanyonInactive from "@src/assets/images/projects/2-Topanga-Canyon/inactive-HERO.jpg";
+import TopangaCanyon1 from "@src/assets/images/projects/2-Topanga-Canyon/1.jpg";
+
+// 3-Desert-Modern
+import DesertModernActive from "@src/assets/images/projects/3-Desert-Modern/active-HERO.jpg";
+import DesertModernInactive from "@src/assets/images/projects/3-Desert-Modern/inactive-HERO.jpg";
+import DesertModern1 from "@src/assets/images/projects/3-Desert-Modern/1.jpg";
+import DesertModern3 from "@src/assets/images/projects/3-Desert-Modern/3.jpg";
+import DesertModern4 from "@src/assets/images/projects/3-Desert-Modern/4.jpg";
+import DesertModern5 from "@src/assets/images/projects/3-Desert-Modern/5.jpg";
+import DesertModern6 from "@src/assets/images/projects/3-Desert-Modern/6.jpg";
+import DesertModern7 from "@src/assets/images/projects/3-Desert-Modern/7.jpg";
+import DesertModern8 from "@src/assets/images/projects/3-Desert-Modern/8.jpg";
+import DesertModern9 from "@src/assets/images/projects/3-Desert-Modern/9.jpg";
+import DesertModern10 from "@src/assets/images/projects/3-Desert-Modern/10.jpg";
+
 // 4-MalibuRetreat
 import MalibuRetreatActive from "@src/assets/images/projects/4-MalibuRetreat/active-HERO.jpg";
 import MalibuRetreatInactive from "@src/assets/images/projects/4-MalibuRetreat/inactive-HERO.jpg";
@@ -20,6 +55,7 @@ import MalibuRetreat12 from "@src/assets/images/projects/4-MalibuRetreat/12-2.jp
 // 5-CrystalCove
 import CrystalCoveActive from "@src/assets/images/projects/5-CrystalCove/active-HERO.jpg";
 import CrystalCoveInactive from "@src/assets/images/projects/5-CrystalCove/inactive-HERO.jpg";
+import CrystalCove0 from "@src/assets/images/projects/5-CrystalCove/2-9.jpg";
 import CrystalCove1 from "@src/assets/images/projects/5-CrystalCove/3-9.jpg";
 import CrystalCove2 from "@src/assets/images/projects/5-CrystalCove/4-9.jpg";
 import CrystalCove3 from "@src/assets/images/projects/5-CrystalCove/5-9.jpg";
@@ -94,6 +130,67 @@ export interface IProject {
 }
 
 export const projects: IProject[] = [
+  {
+    id: 1,
+    projectTitle: i18n.t("homePage.projectsTitles.project1"),
+    imageActive: ArtistRetreatActive,
+    imageInactive: ArtistRetreatInactive,
+    alt: i18n.t("homePage.projectsTitles.project1"),
+    portfolio: {
+      caption: i18n.t("homePage.projectsCaptions.project1"),
+      year: i18n.t("homePage.projectsYears.project1"),
+      images: [
+        ArtistRetreat1,
+        ArtistRetreat2,
+        ArtistRetreat3,
+        ArtistRetreat4,
+        ArtistRetreat5,
+        ArtistRetreat6,
+        ArtistRetreat7,
+        ArtistRetreat8,
+        ArtistRetreat9,
+        ArtistRetreat10,
+        ArtistRetreat11,
+        ArtistRetreat12,
+        ArtistRetreat13,
+      ],
+    },
+  },
+  {
+    id: 2,
+    projectTitle: i18n.t("homePage.projectsTitles.project2"),
+    imageActive: TopangaCanyonActive,
+    imageInactive: TopangaCanyonInactive,
+    alt: i18n.t("homePage.projectsTitles.project2"),
+    portfolio: {
+      caption: i18n.t("homePage.projectsCaptions.project2"),
+      year: i18n.t("homePage.projectsYears.project2"),
+      images: [TopangaCanyonActive, TopangaCanyon1],
+    },
+  },
+  {
+    id: 3,
+    projectTitle: i18n.t("homePage.projectsTitles.project3"),
+    imageActive: DesertModernActive,
+    imageInactive: DesertModernInactive,
+    alt: i18n.t("homePage.projectsTitles.project3"),
+    portfolio: {
+      caption: i18n.t("homePage.projectsCaptions.project3"),
+      year: i18n.t("homePage.projectsYears.project3"),
+      images: [
+        DesertModernActive,
+        DesertModern1,
+        DesertModern3,
+        DesertModern4,
+        DesertModern5,
+        DesertModern6,
+        DesertModern7,
+        DesertModern8,
+        DesertModern9,
+        DesertModern10,
+      ],
+    },
+  },
   {
     id: 4,
     projectTitle: i18n.t("homePage.projectsTitles.project4"),
