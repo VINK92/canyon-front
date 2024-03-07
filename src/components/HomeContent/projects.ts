@@ -31,7 +31,7 @@ import DesertModern3 from "@src/assets/images/projects/3-Desert-Modern/3.jpg";
 import DesertModern4 from "@src/assets/images/projects/3-Desert-Modern/4.jpg";
 import DesertModern5 from "@src/assets/images/projects/3-Desert-Modern/5.jpg";
 import DesertModern6 from "@src/assets/images/projects/3-Desert-Modern/6.jpg";
-import DesertModern7 from "@src/assets/images/projects/3-Desert-Modern/7.jpg";
+// import DesertModern7 from "@src/assets/images/projects/3-Desert-Modern/7.jpg";
 import DesertModern8 from "@src/assets/images/projects/3-Desert-Modern/8.jpg";
 import DesertModern9 from "@src/assets/images/projects/3-Desert-Modern/9.jpg";
 import DesertModern10 from "@src/assets/images/projects/3-Desert-Modern/10.jpg";
@@ -81,13 +81,13 @@ import SouthBeach1 from "@src/assets/images/projects/7-SouthBeach/1-9.jpg";
 import SouthBeach2 from "@src/assets/images/projects/7-SouthBeach/2-11.jpg";
 import SouthBeach3 from "@src/assets/images/projects/7-SouthBeach/3-11.jpg";
 import SouthBeach4 from "@src/assets/images/projects/7-SouthBeach/4-11.jpg";
-import SouthBeach5 from "@src/assets/images/projects/7-SouthBeach/5-11.jpg";
-import SouthBeach6 from "@src/assets/images/projects/7-SouthBeach/6-11.jpg";
-import SouthBeach7 from "@src/assets/images/projects/7-SouthBeach/7-11.jpg";
-import SouthBeach8 from "@src/assets/images/projects/7-SouthBeach/8-9.jpg";
-import SouthBeach9 from "@src/assets/images/projects/7-SouthBeach/9-6.jpg";
-import SouthBeach10 from "@src/assets/images/projects/7-SouthBeach/10-4.jpg";
-import SouthBeach11 from "@src/assets/images/projects/7-SouthBeach/11-4.jpg";
+// import SouthBeach5 from "@src/assets/images/projects/7-SouthBeach/5-11.jpg";
+// import SouthBeach6 from "@src/assets/images/projects/7-SouthBeach/6-11.jpg";
+// import SouthBeach7 from "@src/assets/images/projects/7-SouthBeach/7-11.jpg";
+// import SouthBeach8 from "@src/assets/images/projects/7-SouthBeach/8-9.jpg";
+// import SouthBeach9 from "@src/assets/images/projects/7-SouthBeach/9-6.jpg";
+// import SouthBeach10 from "@src/assets/images/projects/7-SouthBeach/10-4.jpg";
+// import SouthBeach11 from "@src/assets/images/projects/7-SouthBeach/11-4.jpg";
 
 // 8-Hollywood Hills
 import HollywoodHillsActive from "@src/assets/images/projects/8-HollywoodHills/active-HERO.jpg";
@@ -185,7 +185,6 @@ export const projects: IProject[] = [
         DesertModern4,
         DesertModern5,
         DesertModern6,
-        DesertModern7,
         DesertModern8,
         DesertModern9,
         DesertModern10,
@@ -274,13 +273,6 @@ export const projects: IProject[] = [
         SouthBeach2,
         SouthBeach3,
         SouthBeach4,
-        SouthBeach5,
-        SouthBeach6,
-        SouthBeach7,
-        SouthBeach8,
-        SouthBeach9,
-        SouthBeach10,
-        SouthBeach11,
       ],
     },
   },
