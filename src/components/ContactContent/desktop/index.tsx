@@ -11,11 +11,12 @@ export const ContactContent: React.FC = () => {
   const { t } = useTranslation();
   return (
     <StyledRowContainer>
-      <Image src={image} alt="contact-hero" />
+      {/* <Image src={image} alt="contact-hero" /> */}
       <StyledDescriptionContainer>
         <Typography variant="bodyDefault">
           {t("contactPage.caption")}
         </Typography>
+        <Gap size="_16px" />
         <Column>
           <Typography variant="bodyDefault">
             {t("contactPage.addressStreet")}

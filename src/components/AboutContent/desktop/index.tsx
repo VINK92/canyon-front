@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
 import firstImage from "@src/assets/images/about/desktop/about-first.png";
-import secondImage from "@src/assets/images/about/desktop/about-second.png";
+// import secondImage from "@src/assets/images/about/desktop/about-second.png";
 import {
   StyledDescriptionContainer,
   StyledRowContainer,
@@ -19,22 +19,44 @@ export const AboutContent: React.FC = () => {
         <Typography variant="bodyDefault">
           {t("aboutPage.titlePrat1")}
         </Typography>
+        <Gap size="_16px" />
         <Typography variant="bodyDefault">
-          {t("aboutPage.titlePrat2")}
+          {t("aboutPage.aboutDescription1")}
         </Typography>
+        <Gap size="_8px" />
         <Typography variant="bodyDefault">
-          {t("aboutPage.titlePrat3")}
+          {t("aboutPage.aboutDescription2")}
+        </Typography>
+        <Gap size="_8px" />
+        <Typography variant="bodyDefault">
+          {t("aboutPage.aboutDescription3")}
+        </Typography>
+        <Gap size="_8px" />
+        <Typography variant="bodyDefault">
+          {t("aboutPage.aboutDescription4")}
         </Typography>
         <Gap size="_64px" />
         <Typography variant="bodyDefault">
-          {t("aboutPage.descriptionFirstPart")}
+          {t("aboutPage.titlePrat2")}
         </Typography>
         <Gap size="_16px" />
         <Typography variant="bodyDefault">
-          {t("aboutPage.descriptionSecondPart")}
+          {t("aboutPage.bioDescription1")}
+        </Typography>
+        <Gap size="_8px" />
+        <Typography variant="bodyDefault">
+          {t("aboutPage.bioDescription2")}
+        </Typography>
+        <Gap size="_8px" />
+        <Typography variant="bodyDefault">
+          {t("aboutPage.bioDescription3")}
+        </Typography>
+        <Gap size="_8px" />
+        <Typography variant="bodyDefault">
+          {t("aboutPage.bioDescription4")}
         </Typography>
       </StyledDescriptionContainer>
-      <Image src={secondImage} alt="second-image" />
+      {/* <Image src={secondImage} alt="second-image" /> */}
     </StyledRowContainer>
   );
 };
