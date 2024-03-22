@@ -16,6 +16,7 @@ export default {
     aboutPage: {
       titlePrat1: "ABOUT",
       titlePrat2: "BIO",
+      titlePrat3: "SERVICES",
       aboutDescription1:
         "Welcome to the world of interior design redefined by Kasandra Rafter. With over two decades of experience in the realm of high-end residential and commercial projects, Kasandra has established herself as a visionary in the industry. Before founding Canyon Creative, Kasandra served as the Senior Designer for RH, where she honed her craft and refined her aesthetic sensibilities.",
       aboutDescription2:
@@ -32,15 +33,24 @@ export default {
         "As the driving force behind Canyon Creative Design, Kasandra is dedicated to transforming spaces into immersive environments that inspire and delight. With a keen understanding of her clients' needs and a commitment to excellence, she brings a fresh perspective and innovative solutions to every project.",
       bioDescription4:
         "Explore Kasandra's portfolio on our website and discover the artistry that defines Canyon Creative Design. Welcome to a world where luxury meets innovation, and every space is a testament to Kasandra's unparalleled talent and passion for design.",
+      servicesDescription1:
+        "As a premier full-service design firm, we specialize in crafting bespoke experiences from the ground up, orchestrating flawless projects, and curating soulful spaces for our clients.",
+      servicesDescription2:
+        "In harmonious collaboration with esteemed architects and builders, our meticulously organized team ensures that every facet of the design process is executed with unparalleled precision. ",
+      servicesDescription3:
+        "From hand-selecting architectural elements and finishes to sourcing the finest fabrics, accessories, and custom pieces, we leave no stone unturned in the pursuit of elevating your living space to extraordinary heights.",
+      servicesDescription4:
+        "With Canyon Creative Design, you're not just acquiring a service – you're embarking on a journey.",
     },
     contactPage: {
       caption:
-        "If you have a press inquiry, collaboration idea, or just want to chat, send us a little note and we’ll get back to you soon!",
+        "If you have a design project, we'd love to speak with you. Or if you have a press inquiry, collaboration idea, or just want to chat, send us a little note, and we’ll get back to you soon!",
       addressStreet: "3940 Laurel Canyon Blvd", // 3940 Laurel Canyon Blvd, #974, Studio City, CA 91604
       addressSuit: "#974",
       addressDistrict: "Studio City, CA 91604",
-      instagram: "Instagram: @thecanyoncreative",
-      mail: "hello@thecanyoncreative.com",
+      phone: "(323) 544-5141",
+      instagram: "Instagram: @canyoncreativedesign",
+      mail: "Email: hello@canyoncreative.design",
     },
     homePage: {
       projectsTitles: {
@@ -53,6 +63,7 @@ export default {
         project7: "South Beach",
         project8: "Hollywood Hills",
         project9: "Central Coast",
+        project10: "Midcentury Malibu",
       },
       projectsCaptions: {
         project1: "Venice",
@@ -64,6 +75,7 @@ export default {
         project7: "Miami",
         project8: "Hollywood hills",
         project9: "Santa Barbara",
+        project10: "Malibu",
       },
       projectsYears: {
         project1: "2023",
@@ -75,6 +87,7 @@ export default {
         project7: "2021",
         project8: "2022",
         project9: "2020",
+        project10: "2019",
       },
     },
   },

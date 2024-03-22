@@ -19,9 +19,9 @@ import ArtistRetreat12 from "@src/assets/images/projects/1-LA-Artist-Retreat/12.
 import ArtistRetreat13 from "@src/assets/images/projects/1-LA-Artist-Retreat/13.jpg";
 
 // 2-Topanga-Canyon
-import TopangaCanyonActive from "@src/assets/images/projects/2-Topanga-Canyon/active-HERO.jpg";
-import TopangaCanyonInactive from "@src/assets/images/projects/2-Topanga-Canyon/inactive-HERO.jpg";
-import TopangaCanyon1 from "@src/assets/images/projects/2-Topanga-Canyon/1.jpg";
+// import TopangaCanyonActive from "@src/assets/images/projects/2-Topanga-Canyon/active-HERO.jpg";
+// import TopangaCanyonInactive from "@src/assets/images/projects/2-Topanga-Canyon/inactive-HERO.jpg";
+// import TopangaCanyon1 from "@src/assets/images/projects/2-Topanga-Canyon/1.jpg";
 
 // 3-Desert-Modern
 import DesertModernActive from "@src/assets/images/projects/3-Desert-Modern/active-HERO.jpg";
@@ -114,6 +114,21 @@ import CentralCoast7 from "@src/assets/images/projects/9-CentralCoast/7-8.jpg";
 import CentralCoast8 from "@src/assets/images/projects/9-CentralCoast/8-7.jpg";
 import CentralCoast9 from "@src/assets/images/projects/9-CentralCoast/9-5.jpg";
 
+// 10-Midcentury-Malibu
+import MidcenturyMalibuActive from "@src/assets/images/projects/10-Midcentury-Malibu/active-HERO.png";
+import MidcenturyMalibuInactive from "@src/assets/images/projects/10-Midcentury-Malibu/inactive-HERO.png";
+import MidcenturyMalibu1 from "@src/assets/images/projects/10-Midcentury-Malibu/1.png";
+import MidcenturyMalibu2 from "@src/assets/images/projects/10-Midcentury-Malibu/2.png";
+import MidcenturyMalibu3 from "@src/assets/images/projects/10-Midcentury-Malibu/3.png";
+import MidcenturyMalibu4 from "@src/assets/images/projects/10-Midcentury-Malibu/4.png";
+import MidcenturyMalibu5 from "@src/assets/images/projects/10-Midcentury-Malibu/5.png";
+import MidcenturyMalibu6 from "@src/assets/images/projects/10-Midcentury-Malibu/6.png";
+import MidcenturyMalibu7 from "@src/assets/images/projects/10-Midcentury-Malibu/7.png";
+import MidcenturyMalibu8 from "@src/assets/images/projects/10-Midcentury-Malibu/8.png";
+import MidcenturyMalibu9 from "@src/assets/images/projects/10-Midcentury-Malibu/9.png";
+import MidcenturyMalibu10 from "@src/assets/images/projects/10-Midcentury-Malibu/10.png";
+import MidcenturyMalibu11 from "@src/assets/images/projects/10-Midcentury-Malibu/11.png";
+
 export interface IProjectDetails {
   caption: string;
   year: string;
@@ -157,18 +172,18 @@ export const projects: IProject[] = [
       ],
     },
   },
-  {
-    id: 2,
-    projectTitle: i18n.t("homePage.projectsTitles.project2"),
-    imageActive: TopangaCanyonActive,
-    imageInactive: TopangaCanyonInactive,
-    alt: i18n.t("homePage.projectsTitles.project2"),
-    portfolio: {
-      caption: i18n.t("homePage.projectsCaptions.project2"),
-      year: i18n.t("homePage.projectsYears.project2"),
-      images: [TopangaCanyonActive, TopangaCanyon1],
-    },
-  },
+  // {
+  //   id: 2,
+  //   projectTitle: i18n.t("homePage.projectsTitles.project2"),
+  //   imageActive: TopangaCanyonActive,
+  //   imageInactive: TopangaCanyonInactive,
+  //   alt: i18n.t("homePage.projectsTitles.project2"),
+  //   portfolio: {
+  //     caption: i18n.t("homePage.projectsCaptions.project2"),
+  //     year: i18n.t("homePage.projectsYears.project2"),
+  //     images: [TopangaCanyonActive, TopangaCanyon1],
+  //   },
+  // },
   {
     id: 3,
     projectTitle: i18n.t("homePage.projectsTitles.project3"),
@@ -318,6 +333,31 @@ export const projects: IProject[] = [
         CentralCoast7,
         CentralCoast8,
         CentralCoast9,
+      ],
+    },
+  },
+  {
+    id: 10,
+    projectTitle: i18n.t("homePage.projectsTitles.project10"),
+    imageActive: MidcenturyMalibuActive,
+    imageInactive: MidcenturyMalibuInactive,
+    alt: i18n.t("homePage.projectsTitles.project10"),
+    portfolio: {
+      caption: i18n.t("homePage.projectsCaptions.project10"),
+      year: i18n.t("homePage.projectsYears.project10"),
+      images: [
+        MidcenturyMalibuActive,
+        MidcenturyMalibu1,
+        MidcenturyMalibu2,
+        MidcenturyMalibu3,
+        MidcenturyMalibu4,
+        MidcenturyMalibu5,
+        MidcenturyMalibu6,
+        MidcenturyMalibu7,
+        MidcenturyMalibu8,
+        MidcenturyMalibu9,
+        MidcenturyMalibu10,
+        MidcenturyMalibu11,
       ],
     },
   },

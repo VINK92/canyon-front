@@ -35,7 +35,29 @@ export const AboutContent: React.FC = () => {
         <Typography variant="bodyDefault">
           {t("aboutPage.aboutDescription4")}
         </Typography>
-        <Gap size="_64px" />
+        <Gap size="_48px" />
+        {/*  */}
+        <Typography variant="bodyDefault">
+          {t("aboutPage.titlePrat3")}
+        </Typography>
+        <Gap size="_16px" />
+        <Typography variant="bodyDefault">
+          {t("aboutPage.servicesDescription1")}
+        </Typography>
+        <Gap size="_8px" />
+        <Typography variant="bodyDefault">
+          {t("aboutPage.servicesDescription2")}
+        </Typography>
+        <Gap size="_8px" />
+        <Typography variant="bodyDefault">
+          {t("aboutPage.servicesDescription3")}
+        </Typography>
+        <Gap size="_8px" />
+        <Typography variant="bodyDefault">
+          {t("aboutPage.servicesDescription4")}
+        </Typography>
+        <Gap size="_48px" />
+        {/*  */}
         <Typography variant="bodyDefault">
           {t("aboutPage.titlePrat2")}
         </Typography>

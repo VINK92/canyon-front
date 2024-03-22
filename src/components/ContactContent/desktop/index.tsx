@@ -29,6 +29,9 @@ export const ContactContent: React.FC = () => {
           </Typography>
           <Gap size="_16px" />
           <Typography variant="bodyDefault">
+            {t("contactPage.phone")}
+          </Typography>
+          <Typography variant="bodyDefault">
             {t("contactPage.instagram")}
           </Typography>
           <Typography variant="bodyDefault">{t("contactPage.mail")}</Typography>

@@ -32,6 +32,25 @@ export const AboutContent = () => {
       </Typography>
       <Gap size="_16px" />
 
+      <Typography variant="bodyDefault">{t("aboutPage.titlePrat3")}</Typography>
+      <Gap size="_16px" />
+      <Typography variant="bodyDefault">
+        {t("aboutPage.servicesDescription1")}
+      </Typography>
+      <Gap size="_16px" />
+      <Typography variant="bodyDefault">
+        {t("aboutPage.servicesDescription2")}
+      </Typography>
+      <Gap size="_16px" />
+      <Typography variant="bodyDefault">
+        {t("aboutPage.servicesDescription3")}
+      </Typography>
+      <Gap size="_16px" />
+      <Typography variant="bodyDefault">
+        {t("aboutPage.servicesDescription4")}
+      </Typography>
+      <Gap size="_16px" />
+
       <Typography variant="bodyDefault">{t("aboutPage.titlePrat2")}</Typography>
       <Gap size="_16px" />
       {/* <Image src={secondImage} alt="first-image" layout="responsive" /> */}

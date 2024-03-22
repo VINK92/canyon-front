@@ -47,7 +47,6 @@ export const ProjectsContent = () => {
               <StyledImage
                 style={{
                   maxHeight: "85vh",
-                  marginLeft: "-2px",
                 }}
                 src={image}
                 alt="project-image"

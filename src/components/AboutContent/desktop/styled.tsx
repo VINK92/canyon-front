@@ -6,6 +6,7 @@ export const StyledDescriptionContainer = styled("div")(
     display: flex;
     flex-direction: column;
     padding: 16px;
+    overflow-y: auto;
   `
 );
 
