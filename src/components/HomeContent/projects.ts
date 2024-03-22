@@ -24,8 +24,8 @@ import ArtistRetreat13 from "@src/assets/images/projects/1-LA-Artist-Retreat/13.
 // import TopangaCanyon1 from "@src/assets/images/projects/2-Topanga-Canyon/1.jpg";
 
 // 3-Desert-Modern
-import DesertModernActive from "@src/assets/images/projects/3-Desert-Modern/active-HERO.jpg";
-import DesertModernInactive from "@src/assets/images/projects/3-Desert-Modern/inactive-HERO.jpg";
+import DesertModernActive from "@src/assets/images/projects/3-Desert-Modern/active-HERO.jpeg";
+import DesertModernInactive from "@src/assets/images/projects/3-Desert-Modern/inactive-HERO.jpeg";
 import DesertModern1 from "@src/assets/images/projects/3-Desert-Modern/1.jpg";
 import DesertModern3 from "@src/assets/images/projects/3-Desert-Modern/3.jpg";
 import DesertModern4 from "@src/assets/images/projects/3-Desert-Modern/4.jpg";
@@ -64,8 +64,8 @@ import CrystalCove5 from "@src/assets/images/projects/5-CrystalCove/7-9.jpg";
 import CrystalCove6 from "@src/assets/images/projects/5-CrystalCove/8-8.jpg";
 
 // 6-NewportBeach
-import NewportBeachActive from "@src/assets/images/projects/6-NewportBeach/active-HERO.jpg";
-import NewportBeachInactive from "@src/assets/images/projects/6-NewportBeach/inactive-HERO.jpg";
+import NewportBeachActive from "@src/assets/images/projects/6-NewportBeach/active-HERO.jpeg";
+import NewportBeachInactive from "@src/assets/images/projects/6-NewportBeach/inactive-HERO.jpeg";
 import NewportBeach1 from "@src/assets/images/projects/6-NewportBeach/1-8.jpg";
 import NewportBeach2 from "@src/assets/images/projects/6-NewportBeach/2-10.jpg";
 import NewportBeach3 from "@src/assets/images/projects/6-NewportBeach/3-10.jpg";
@@ -102,7 +102,7 @@ import HollywoodHills7 from "@src/assets/images/projects/8-HollywoodHills/7-12.j
 import HollywoodHills8 from "@src/assets/images/projects/8-HollywoodHills/8-10.jpg";
 
 // 9-Central Coast
-import CentralCoastActive from "@src/assets/images/projects/9-CentralCoast/active-HERO.jpg";
+import CentralCoastActive from "@src/assets/images/projects/9-CentralCoast/active-HERO.jpeg";
 import CentralCoastInactive from "@src/assets/images/projects/9-CentralCoast/inactive-HERO.jpg";
 import CentralCoast1 from "@src/assets/images/projects/9-CentralCoast/1-7.jpg";
 import CentralCoast2 from "@src/assets/images/projects/9-CentralCoast/2-8.jpg";
