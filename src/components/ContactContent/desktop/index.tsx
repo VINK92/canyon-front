@@ -1,10 +1,13 @@
 import React from "react";
 import { Typography } from "@mui/material";
-import Image from "next/image";
 import { useTranslation } from "react-i18next";
 import { Gap } from "@src/components/shared/Gap";
-import image from "@src/assets/images/contact/desktop/contact-hero.png";
-import { StyledRowContainer, StyledDescriptionContainer } from "./styled";
+// import image from "@src/assets/images/contact/desktop/contact-hero.png";
+import {
+  StyledRowContainer,
+  StyledDescriptionContainer,
+  StyledLink,
+} from "./styled";
 import { Column } from "@src/components/shared/Flex/Column";
 
 export const ContactContent: React.FC = () => {
@@ -31,10 +34,19 @@ export const ContactContent: React.FC = () => {
           <Typography variant="bodyDefault">
             {t("contactPage.phone")}
           </Typography>
-          <Typography variant="bodyDefault">
-            {t("contactPage.instagram")}
-          </Typography>
-          <Typography variant="bodyDefault">{t("contactPage.mail")}</Typography>
+          <StyledLink
+            href="https://www.instagram.com/canyoncreativedesign"
+            target="_blank"
+          >
+            <Typography variant="bodyDefault">
+              {t("contactPage.instagram")}
+            </Typography>
+          </StyledLink>
+          <StyledLink href="mailto:hello@canyoncreative.design" target="_blank">
+            <Typography variant="bodyDefault">
+              {t("contactPage.mail")}
+            </Typography>
+          </StyledLink>
         </Column>
       </StyledDescriptionContainer>
     </StyledRowContainer>
