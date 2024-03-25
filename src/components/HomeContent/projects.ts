@@ -99,7 +99,6 @@ import HollywoodHills4 from "@src/assets/images/projects/8-HollywoodHills/4-12.j
 import HollywoodHills5 from "@src/assets/images/projects/8-HollywoodHills/5-12.jpg";
 import HollywoodHills6 from "@src/assets/images/projects/8-HollywoodHills/6-12.jpg";
 import HollywoodHills7 from "@src/assets/images/projects/8-HollywoodHills/7-12.jpg";
-import HollywoodHills8 from "@src/assets/images/projects/8-HollywoodHills/8-10.jpg";
 
 // 9-Central Coast
 import CentralCoastActive from "@src/assets/images/projects/9-CentralCoast/active-HERO.jpeg";
@@ -309,7 +308,6 @@ export const projects: IProject[] = [
         HollywoodHills5,
         HollywoodHills6,
         HollywoodHills7,
-        HollywoodHills8,
       ],
     },
   },

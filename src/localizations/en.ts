@@ -18,21 +18,20 @@ export default {
       titlePrat2: "BIO",
       titlePrat3: "SERVICES",
       aboutDescription1:
-        "Welcome to the world of interior design redefined by Kasandra Rafter. With over two decades of experience in the realm of high-end residential and commercial projects, Kasandra has established herself as a visionary in the industry. Before founding Canyon Creative, Kasandra served as the Senior Designer for RH, where she honed her craft and refined her aesthetic sensibilities.",
+        "Welcome to the world of interior design, redefined by Canyon Creative. With over two decades of experience in the realm of high-end residential and commercial projects, Canyon Creative's Founder/Designer, Kasandra Rafter, has established herself as a visionary in the industry.",
       aboutDescription2:
-        "Drawing inspiration from the architecture and physical environment of each project, Kasandra's design philosophy is grounded in a deep understanding of space and form. She believes in the power of design to transform not just the look, but the feel, function, and emotion of a space, ensuring every element serves a purpose and enhances the client's overall experience.",
+        "Canyon Creative's design philosophy is grounded in a deep understanding of space and form, drawing inspiration from each project's architecture and physical environment. We believe in the power of design to transform not just the look but the feel, function, and emotion of a space, ensuring every element serves a purpose and enhances the client's overall experience.",
       aboutDescription3:
-        "Beyond her work with renowned brands and prestigious clients, Kasandra has also embarked on her creative ventures, designing bespoke furniture pieces that marry timeless elegance with modern sophistication. Her keen eye for detail and commitment to craftsmanship shine through in every piece.",
+        "Explore our portfolio and discover the artistry that defines Canyon Creative Design.",
       aboutDescription4:
-        "At Canyon Creative Design, our mission is simple: to bring your vision to life. Whether it's a luxurious residence, a chic hotel, or a dynamic office space, Kasandra's personalized approach ensures that each project is tailored to reflect the unique ethos and lifestyle of our clients. Welcome to a world where design meets possibility, and every space tells a story of style, substance, and sophistication. ",
+        "Whether it's a luxurious residence, a chic hotel, or a dynamic office space, Canyon Creative's personalized approach ensures each project is tailored to reflect the unique ethos and lifestyle of our clients. Welcome to a world where design meets possibility, and every space tells a story of style, substance, and sophistication.",
       bioDescription1:
-        "Canyon Creative Design is spearheaded by the visionary Founder/Designer Kasandra Rafter. With a prestigious background, including working as a Senior Designer with RH, Kasandra brings an impressive two decades of experience with high-end residential and commercial interior design projects. Kasandra epitomizes creativity, expertise, and an impeccable eye for detail.",
+        "Canyon Creative Design is spearheaded by the visionary Founder/Designer Kasandra Rafter. With a prestigious background, including working as Senior Designer with RH, Kasandra brings an impressive two decades of experience with high-end residential and commercial interior design projects. Kasandra epitomizes creativity, style, and an impeccable eye for detail.",
       bioDescription2:
-        "Throughout her illustrious career, Kasandra has crafted a portfolio of bespoke projects that showcase her unwavering passion for design. From luxurious residences to chic commercial spaces, each project bears the hallmark of Kasandra's style and meticulous attention to detail.",
+        "Throughout her illustrious career, Kasandra has crafted a portfolio of bespoke projects that showcase her unwavering passion for design. From luxurious residences to chic commercial spaces, each project bears the hallmark of Kasandra's unique style and meticulous attention to detail.",
       bioDescription3:
-        "As the driving force behind Canyon Creative Design, Kasandra is dedicated to transforming spaces into immersive environments that inspire and delight. With a keen understanding of her clients' needs and a commitment to excellence, she brings a fresh perspective and innovative solutions to every project.",
-      bioDescription4:
-        "Explore Kasandra's portfolio on our website and discover the artistry that defines Canyon Creative Design. Welcome to a world where luxury meets innovation, and every space is a testament to Kasandra's unparalleled talent and passion for design.",
+        "As the driving force behind Canyon Creative Design, Kasandra is dedicated to transforming spaces into immersive environments that inspire, delight and exceed expectations.",
+      bioDescription4: "",
       servicesDescription1:
         "As a premier full-service design firm, we specialize in crafting bespoke experiences from the ground up, orchestrating flawless projects, and curating soulful spaces for our clients.",
       servicesDescription2:
